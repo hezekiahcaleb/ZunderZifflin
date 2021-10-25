@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HCI</title>
+    <link rel="stylesheet" href="Styling.css">
+    <script src="register.js"></script>
+</head>
+<body>
+
+    <header>
+        <nav class="flexing" >
+            <div class="headTop">
+                <div class="logoContainer">
+                    <img src="asset/Logo-mini.png" class="logo" alt="">
+                </div>
+                <div class="homeContainer">
+                    <a href="Home.html" class="navigation"  >HOME</a>
+                </div>
+                <div class="MenuContainer">
+                    <div class="Menu">
+                        <a class="MenuBtn">MENU▼</a>
+                        <div class="grup1">
+                            <a href="Product.html" class="navigation" >Products</a>
+                            <a href="CompanyProfile.html" class="navigation">Company Profile</a>
+                            <a href="ContactUs.html" class="navigation"> Contact Us</a>
+                        </div> 
+                    </div>
+                </div>
+                <div class="rightContainer">
+                    <div class="grup2">
+                        <a href="Registration.html" class="navigation">Registration</a>
+                    </div>
+                </div>
+            </div>                        
+        </nav>
+    </header>
+
+
+    <body>
+      
+<div class="subtitle">  Register </div>        
+
+<form  onsubmit="validatingForm(event)" id = "registerForm" class="formy">
+    <div class="formyDiv">
+        <div class="errorContainer">
+            <p id="lblError" class="error"></p>
+        </div>
+        <div>
+            <label for="Username">Name :</label>
+            <br/>
+            
+            <input class="input" id="username" type="text" >
+            <br/>
+     
+        </div>
+        <div>
+            <label for="Email">Email :</label>
+            <br/>
+            <input class="input" id="email" type="email">
+            <br/>
+     
+        </div>
+        <div>
+            <label for="gender">Gender :</label>
+            <br/>
+            <input class="input" id="gender" type="text">
+            <br/>
+        </div>
+        <div>
+            <label for="Address">Address :</label>
+            <br/>
+            <input class="input" id="address"  type="text">
+            <br/>
+        </div>
+        <div>
+            <label for="city">City :</label>
+            <br/>
+            <input class="input" id="city"  type="text">
+            <br/>
+        </div>
+        <div>
+            <label for="agree">Agree to our terms and condition</label>
+            <br/>
+            <input class="input" name="agree" id="agree" type="checkbox">
+            <br/>
+     
+        </div>
+
+        <div class="btnRegister">
+            <button >Register</button>
+        </div>
+ 
+        
+    </div>
+
+</form>    
+
+    </body>
+
+    <footer >
+        <div class="footerContainer">
+            <div class="mainContainer1">
+                <div class="imageContainer">
+                    <div>
+                        <a class="textFooter">Our Social Media: </a>
+                    </div>
+                    <div>
+                        <img src="asset/insta.png" class="imgFooter" alt="">
+                        <img src="asset/facebook.png" class="imgFooter" alt="">
+                        <img src="asset/twitter.png" class="imgFooter" alt="">
+                        <img src="asset/linkedin.png" class="imgFooter" alt="">    
+                    </div>
+                    <div>
+                       <a class="textFooter2">© 2021 Zunder Zifflin</a> 
+                    </div>
+                </div>
+            </div>
+            <div class="mainContainer2">
+                <div class="imageContainer2">
+                    <div>
+                        <a class="textFooter">Where to buy?</a>
+                    </div>
+                    <div>
+                        <a class="textFooter2">Shop Zunder Zifflin Online Store</a>
+                    </div>
+                    <div>
+                        <a class="textFooter2">Find Our Official Store</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>   
+
+    
+</body>
+</html>
